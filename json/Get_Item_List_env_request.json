@@ -1,0 +1,69 @@
+{
+    "method": "POST",
+    "header": [],
+    "body": {
+        "mode": "urlencoded",
+        "urlencoded": [
+            {
+                "key": "categoryId",
+                "value": "-1",
+                "type": "text"
+            },
+            {
+                "key": "contentVer",
+                "value": "{{contentVer}}",
+                "type": "text"
+            },
+            {
+                "key": "lang",
+                "value": "{{lang}}",
+                "type": "text"
+            },
+            {
+                "key": "platform",
+                "value": "{{platform}}",
+                "type": "text"
+            },
+            {
+                "key": "product",
+                "value": "YouCam MakeUp",
+                "type": "text"
+            },
+            {
+                "key": "version",
+                "value": "1.0",
+                "type": "text"
+            },
+            {
+                "key": "versiontype",
+                "value": "for ios",
+                "type": "text"
+            },
+            {
+                "key": "categoryContentVer",
+                "value": "6",
+                "type": "text"
+            },
+            {
+                "key": "appVersion",
+                "value": "{{appVersion}}",
+                "type": "text"
+            },
+            {
+                "key": "country",
+                "value": "{{country}}",
+                "type": "text"
+            }
+        ]
+    },
+    "url": {
+        "raw": "{{URL}}{{service_v2}}/makeupItem/getTree",
+        "host": [
+            "{{URL}}{{service_v2}}"
+        ],
+        "path": [
+            "makeupItem",
+            "getTree"
+        ]
+    }
+}

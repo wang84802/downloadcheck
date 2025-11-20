@@ -1,0 +1,762 @@
+{
+	"info": {
+		"_postman_id": "8eeb4516-cf9b-49e8-a246-e4a59c8a0cb8",
+		"name": "YMK_content_download",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17823793"
+	},
+	"item": [
+		{
+			"name": "getMakeupItemList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getMakeupItemList?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&contentVer=1.0&sindex=1&count=22&order=NEW",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getMakeupItemList"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "contentVer",
+							"value": "1.0"
+						},
+						{
+							"key": "sindex",
+							"value": "1"
+						},
+						{
+							"key": "count",
+							"value": "22"
+						},
+						{
+							"key": "order",
+							"value": "NEW"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMakeupItemList_v3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v3}}/getMakeupItemList?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&type=look&contentVer=1.0&order=NEW",
+					"host": [
+						"{{URL}}{{service_v3}}"
+					],
+					"path": [
+						"getMakeupItemList"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "type",
+							"value": "look"
+						},
+						{
+							"key": "contentVer",
+							"value": "1.0"
+						},
+						{
+							"key": "order",
+							"value": "NEW"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMakeupItemByGuids",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getMakeupItemByGuids?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&contentVer=1.0&guids=look_thumb_20",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getMakeupItemByGuids"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "contentVer",
+							"value": "1.0"
+						},
+						{
+							"key": "guids",
+							"value": "look_thumb_20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMakeupItemByGuids_v3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v3}}/getMakeupItemByGuids?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&contentVer=1.0&guids=xxx&mainBody=1",
+					"host": [
+						"{{URL}}{{service_v3}}"
+					],
+					"path": [
+						"getMakeupItemByGuids"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "contentVer",
+							"value": "1.0"
+						},
+						{
+							"key": "guids",
+							"value": "xxx"
+						},
+						{
+							"key": "mainBody",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMakeupItemByGuidsV2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getMakeupItemByGuidsV2?lang=en_US&guids=look_thumb_20&contentVer=1.0",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getMakeupItemByGuidsV2"
+					],
+					"query": [
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "guids",
+							"value": "look_thumb_20"
+						},
+						{
+							"key": "contentVer",
+							"value": "1.0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getProductInfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getProductInfo?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&type=lipstick&guids=xxx",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getProductInfo"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "type",
+							"value": "lipstick"
+						},
+						{
+							"key": "guids",
+							"value": "xxx"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getProductGUIDBySkuGUID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getProductGUIDBySkuGUID?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&makeupver=1&skuformatver=1&skuguids=30",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getProductGUIDBySkuGUID"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "makeupver",
+							"value": "1"
+						},
+						{
+							"key": "skuformatver",
+							"value": "1"
+						},
+						{
+							"key": "skuguids",
+							"value": "30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getProductMaskList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getProductMaskList?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&producttype=blush",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getProductMaskList"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "producttype",
+							"value": "blush"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getProductMaskByProductGUIDs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getProductMaskByProductGUIDs?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&productguids=30",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getProductMaskByProductGUIDs"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "productguids",
+							"value": "30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getProductDetailByItemGuids",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getProductDetailByItemGuids?lang=en_US&itemGuids=DEF",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getProductDetailByItemGuids"
+					],
+					"query": [
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "itemGuids",
+							"value": "DEF"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getProductsForPerfectColor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getProductsForPerfectColor?country=TW",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getProductsForPerfectColor"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "TW"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getSkuByGuids",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getSkuByGuids?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&makeupVer=1.0&skuFormatVer=2.0&guids=xxx",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getSkuByGuids"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "makeupVer",
+							"value": "1.0"
+						},
+						{
+							"key": "skuFormatVer",
+							"value": "2.0"
+						},
+						{
+							"key": "guids",
+							"value": "xxx"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getSkuByGuids_v3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v3}}/getSkuByGuids?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&makeupVer=1.0&guids=xxx&skuFormatVer=2.0&mainBody=1",
+					"host": [
+						"{{URL}}{{service_v3}}"
+					],
+					"path": [
+						"getSkuByGuids"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "makeupVer",
+							"value": "1.0"
+						},
+						{
+							"key": "guids",
+							"value": "xxx"
+						},
+						{
+							"key": "skuFormatVer",
+							"value": "2.0"
+						},
+						{
+							"key": "mainBody",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getSkuByGuidsV2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getSkuByGuidsV2?lang=en_US&skuFormatVer=2.0&makeupVer=1.0&guids=xxx",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getSkuByGuidsV2"
+					],
+					"query": [
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "skuFormatVer",
+							"value": "2.0"
+						},
+						{
+							"key": "makeupVer",
+							"value": "1.0"
+						},
+						{
+							"key": "guids",
+							"value": "xxx"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "look_gettree",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/look/get-tree?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&categoryContentVer=1.0&contentVer=1.0&mode=APP",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"look",
+						"get-tree"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "categoryContentVer",
+							"value": "1.0"
+						},
+						{
+							"key": "contentVer",
+							"value": "1.0"
+						},
+						{
+							"key": "mode",
+							"value": "APP"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getGenericStoreItemList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getGenericStoreItemList?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&contentver=1.0&type=blush",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getGenericStoreItemList"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "contentver",
+							"value": "1.0"
+						},
+						{
+							"key": "type",
+							"value": "blush"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getGenericStoreItemByGuid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}{{service_v2}}/getGenericStoreItemByGuid?product=YouCam%20Makeup&version=1.0&versiontype=for%20Android&platform=Android&lang=en_US&contentver=1.0&type=blush&guids=30",
+					"host": [
+						"{{URL}}{{service_v2}}"
+					],
+					"path": [
+						"getGenericStoreItemByGuid"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "YouCam%20Makeup"
+						},
+						{
+							"key": "version",
+							"value": "1.0"
+						},
+						{
+							"key": "versiontype",
+							"value": "for%20Android"
+						},
+						{
+							"key": "platform",
+							"value": "Android"
+						},
+						{
+							"key": "lang",
+							"value": "en_US"
+						},
+						{
+							"key": "contentver",
+							"value": "1.0"
+						},
+						{
+							"key": "type",
+							"value": "blush"
+						},
+						{
+							"key": "guids",
+							"value": "30"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

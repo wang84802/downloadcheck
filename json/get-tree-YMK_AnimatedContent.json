@@ -1,0 +1,2709 @@
+{
+    "status": "OK",
+    "tree": [
+        {
+            "categoryId": 13600248,
+            "items": [
+                {
+                    "lastModified": 1760339339000,
+                    "releaseTime": 1760613516000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202509_holidays_01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1760339339000,
+                    "releaseTime": 1760613516000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202509_holidays_02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1760339339000,
+                    "releaseTime": 1760613516000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202509_holidays_03",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1760339339000,
+                    "releaseTime": 1760613516000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202509_holidays_04",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1742532536000,
+                    "releaseTime": 1742956519000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202503_effect_easter_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1732069776000,
+                    "releaseTime": 1703655745000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_NewYear_01_firework",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1730964185000,
+                    "releaseTime": 1731398000000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202411_effect_newyear_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1730964185000,
+                    "releaseTime": 1731398000000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202411_effect_newyear_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729508742000,
+                    "releaseTime": 1730113826000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202410_effect_holidays_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729508742000,
+                    "releaseTime": 1730113825000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202410_Christmas_D01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1716963861000,
+                    "releaseTime": 1716963861000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202405_effect_FatherDay_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1714300376000,
+                    "releaseTime": 1714300374000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202404mothersdayW01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1714300376000,
+                    "releaseTime": 1714300373000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202404goldenweekeffectE01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1710935513000,
+                    "releaseTime": 1710935513000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202403_effect_easter_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1703845434000,
+                    "releaseTime": 1703845431000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202211_holidays_effects_G02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1700024496000,
+                    "releaseTime": 1700024494000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202311_Holiday_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1700024496000,
+                    "releaseTime": 1700024494000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202311_holidays_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1700024496000,
+                    "releaseTime": 1700024494000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "newyear_effect_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1700024496000,
+                    "releaseTime": 1700024494000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202311_effect_newyear_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1698223083000,
+                    "releaseTime": 1698223083000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202310_thanksgiving_effect_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1679539331000,
+                    "releaseTime": 1679539331000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "2023_03_Easter_effect_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1679243402000,
+                    "releaseTime": 1679243402000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "6830ff07-7867-488b-9077-4bb9e56895a1",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1679243401000,
+                    "releaseTime": 1679243401000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "d62d3408-61d1-4cc3-9ad3-073606d87c5b",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1679243403000,
+                    "releaseTime": 1679243403000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "4bda94cd-1e5d-41a3-b7d1-8eafd4dbb079",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1679243404000,
+                    "releaseTime": 1679243404000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "ca85ad53-e6cd-4867-b4be-329a02b6c79d",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1679243404000,
+                    "releaseTime": 1679243404000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "a271af62-a808-4c22-906d-b67de2eb099c",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1679243404000,
+                    "releaseTime": 1679243404000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "6c45dbbc-2bcd-4956-acd2-64a54b8d6f1e",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1675740453000,
+                    "releaseTime": 1675740453000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "8b383d9d-5195-49a8-8ed6-cd1b7add6993",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1675740453000,
+                    "releaseTime": 1675740453000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "a6bad3b9-8db0-4ce3-84ab-495dcb2ab51c",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1672722705000,
+                    "releaseTime": 1672722705000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202212_Lunar_effects-G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1672722705000,
+                    "releaseTime": 1672722705000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202211_holidays_effect_J02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1672722705000,
+                    "releaseTime": 1672722705000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202212_Lunar_effects-W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1672902064000,
+                    "releaseTime": 1672902064000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202212_Lunar_effects-G02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1672722705000,
+                    "releaseTime": 1672722705000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202212_Lunar_effects-W02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1672902064000,
+                    "releaseTime": 1672902064000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202212_Lunar_effects-E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1672722705000,
+                    "releaseTime": 1672722705000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202212_Lunar_effects-J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1671419233000,
+                    "releaseTime": 1671419233000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202211_holidays_effect-J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1671419233000,
+                    "releaseTime": 1671419233000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202211_holidays_effects-W02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1671073002000,
+                    "releaseTime": 1671073002000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202209_holiday_effect_02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1668411076000,
+                    "releaseTime": 1668411076000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202209_holiday_effect_01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1668411076000,
+                    "releaseTime": 1668411076000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202211_holidays_effects-W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1668411076000,
+                    "releaseTime": 1668411076000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202211_holidays_effect-E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1668411076000,
+                    "releaseTime": 1668411076000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202211_holidays_effect-J02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1668411076000,
+                    "releaseTime": 1668411076000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202211_holidays_effects_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1663901229000,
+                    "releaseTime": 1663901229000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202209_diwali_effect_01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1639359000000,
+                    "releaseTime": 1639359000000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Mean_girl_kiss",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1638337701000,
+                    "releaseTime": 1638337701000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2022_NewYear_02_firework_B",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1638337701000,
+                    "releaseTime": 1638337701000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2022_NewYear_02_firework_C",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1636528085000,
+                    "releaseTime": 1636528085000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Holiday_flake",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1636528084000,
+                    "releaseTime": 1636528084000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Holiday_gift",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1635729968000,
+                    "releaseTime": 1635729968000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_thanksgiving_pumbkin",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1624357935000,
+                    "releaseTime": 1624357935000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_USA_effect",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1611546350000,
+                    "releaseTime": 1611546350000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "710ec803-a1a5-4aff-bb67-dfa09f3105fd",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1611546350000,
+                    "releaseTime": 1611546350000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "5708afd2-b789-4494-b3d3-a7aabbfdea0a",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1611546350000,
+                    "releaseTime": 1611546350000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "621ae374-94af-4045-a510-ba439744886a",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1608187057000,
+                    "releaseTime": 1608187057000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "601e6adc-a592-40f9-b70b-0f742102d956"
+                },
+                {
+                    "lastModified": 1604613996000,
+                    "releaseTime": 1604613996000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "853959ef-d7d3-4c03-b768-848712397299"
+                },
+                {
+                    "lastModified": 1604613992000,
+                    "releaseTime": 1604613992000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "12029c4f-06e8-411c-95c8-46b5a063d578"
+                },
+                {
+                    "lastModified": 1604613996000,
+                    "releaseTime": 1604613996000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "57973da9-76a7-4ffa-bf8e-7cec3053ae24"
+                },
+                {
+                    "lastModified": 1606356381000,
+                    "releaseTime": 1606356381000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "5deeeea7-d078-4294-984e-465f559acbda"
+                },
+                {
+                    "lastModified": 1600916876000,
+                    "releaseTime": 1600916876000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "aac5a154-75ef-4b13-b6d5-a7d2a2a768b5"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600247,
+            "items": [
+                {
+                    "lastModified": 1702002604000,
+                    "releaseTime": 1702002604000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202311_effect_winter_W01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600246,
+            "items": [
+                {
+                    "lastModified": 1724643039000,
+                    "releaseTime": 1724643037000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202408_Autumn_Effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1724643039000,
+                    "releaseTime": 1724643036000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202408_autumn_effect_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1697092081000,
+                    "releaseTime": 1697092081000,
+                    "usageType": "purchase",
+                    "layout": "Sticker",
+                    "guid": "10ba7d7b-9873-452a-ac39-1dc0b37f443a",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1630482277000,
+                    "releaseTime": 1630482277000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Autumn_A",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1630482276000,
+                    "releaseTime": 1630482276000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Autumn_B",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1630482276000,
+                    "releaseTime": 1630482276000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Autumn_C",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931695000,
+                    "releaseTime": 1656931695000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "3dd79db9-a0ed-4e6c-bf69-48e97125d85f",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931694000,
+                    "releaseTime": 1656931694000,
+                    "usageType": "purchase",
+                    "layout": "Sticker",
+                    "guid": "22f6ff74-4801-4af5-ac28-3083e739c8cd",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931694000,
+                    "releaseTime": 1656931694000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "67a7a1c7-3914-420c-9f6a-035ea6bc4092",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931694000,
+                    "releaseTime": 1656931694000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "92db91da-0067-4acb-9a29-224ee7ace50b",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931693000,
+                    "releaseTime": 1656931693000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "e62d1921-f0cf-4601-8f3f-e56d5ffea342",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931695000,
+                    "releaseTime": 1656931695000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "3b675aba-3d35-4dce-aeda-b294a4241096",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931694000,
+                    "releaseTime": 1656931694000,
+                    "usageType": "purchase",
+                    "layout": "Sticker",
+                    "guid": "9eced2c9-05fa-4435-909d-938ba9099284",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931694000,
+                    "releaseTime": 1656931694000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "5447a921-8a3c-4990-bb38-500ddb28ccd2",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931694000,
+                    "releaseTime": 1656931694000,
+                    "usageType": "purchase",
+                    "layout": "Sticker",
+                    "guid": "17072a1b-6e79-411c-b338-64e10663bda7",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931694000,
+                    "releaseTime": 1656931694000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "95675ff3-5666-4a93-a700-faa0f30786fc",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931694000,
+                    "releaseTime": 1656931694000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "98937fa1-108c-4ee1-b7f4-21eab4231a79",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931693000,
+                    "releaseTime": 1656931693000,
+                    "usageType": "purchase",
+                    "layout": "Sticker",
+                    "guid": "718051f2-f239-4ee9-b8ea-40357872a47c",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931693000,
+                    "releaseTime": 1656931693000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "c5046cf7-707c-4041-ab38-bca1bd0741de",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1656931695000,
+                    "releaseTime": 1656931695000,
+                    "usageType": "purchase",
+                    "layout": "Sticker",
+                    "guid": "5f65762e-d5ad-4212-964c-47a456c877a5",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1600913326000,
+                    "releaseTime": 1600913326000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "2f954def-c2f8-4e69-acca-81cdd9d157fa"
+                },
+                {
+                    "lastModified": 1617160897000,
+                    "releaseTime": 1617160897000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "31742fcc-e409-4a43-b4a3-a91375650037",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1600913326000,
+                    "releaseTime": 1600913326000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "76dcc5d4-6350-4d59-b2dd-222463ce0246"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600245,
+            "items": [
+                {
+                    "lastModified": 1752825234000,
+                    "releaseTime": 1754044011000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202507_mermaid_Effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1750067882000,
+                    "releaseTime": 1750730530000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202506_effect_summer_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1750067882000,
+                    "releaseTime": 1750730530000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202506_Summer_hibiscus_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1720754842000,
+                    "releaseTime": 1720754842000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202406_Tropical_Effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1720754862000,
+                    "releaseTime": 1720754862000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202406_effect_summer_watermelon",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1710464401000,
+                    "releaseTime": 1710464401000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202402_Summer_effect_G02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1689214894000,
+                    "releaseTime": 1689214894000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202306_Summer_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1689214894000,
+                    "releaseTime": 1689214894000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202306_effect_summer_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1672019502000,
+                    "releaseTime": 1672019502000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "170431af-0708-4fd7-99e5-f331cec201cc",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1672019502000,
+                    "releaseTime": 1672019502000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "a381a9a4-7f56-44c1-b438-235338952805",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1655688340000,
+                    "releaseTime": 1655688340000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202206_SummerEffect05",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1655688340000,
+                    "releaseTime": 1655688340000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202206_SummerEffect02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1655688340000,
+                    "releaseTime": 1655688340000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202206_SummerEffect04",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1655688340000,
+                    "releaseTime": 1655688340000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202206_SummerEffect01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1655688340000,
+                    "releaseTime": 1655688340000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202206_SummerEffect03",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1624357931000,
+                    "releaseTime": 1624357931000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Summer_sunshineB",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1624357931000,
+                    "releaseTime": 1624357931000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Summer_wave",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1624357931000,
+                    "releaseTime": 1624357931000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Summer_icepop",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1595790591000,
+                    "releaseTime": 1595790591000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "3d962f4e-fe69-4523-bc4d-8ef1cee92408"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600244,
+            "items": [
+                {
+                    "lastModified": 1740651658000,
+                    "releaseTime": 1740994626000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202503_effect_spring_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1740651658000,
+                    "releaseTime": 1740994626000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202502_Spring_Effect_D01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1710935513000,
+                    "releaseTime": 1710935513000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202403_effect_sakura_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1708659711000,
+                    "releaseTime": 1708659709000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202402_spring_effect_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1708659711000,
+                    "releaseTime": 1708659708000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202402_Spring_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1678175465000,
+                    "releaseTime": 1678175465000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202302_Spring_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1678175465000,
+                    "releaseTime": 1678175465000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202302_Spring_effect_G02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1647341511000,
+                    "releaseTime": 1647341511000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_220221_spring",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1617160897000,
+                    "releaseTime": 1617160897000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "30872d88-d64b-4535-a113-527763e2b483",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1617160897000,
+                    "releaseTime": 1617160897000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "9a2eb7b8-5a38-4c53-b282-19bacdbd35ee",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1617160897000,
+                    "releaseTime": 1617160897000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "87f26077-5e3a-4030-ab81-80f498762255",
+                    "subType": ""
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600238,
+            "items": [
+                {
+                    "lastModified": 1672110732000,
+                    "releaseTime": 1672110732000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "a4443288-dbb2-4697-9127-a7ab14c45f7b",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1630548546000,
+                    "releaseTime": 1630548546000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "74679ea8-a42c-4b0f-89eb-d07b8503c343",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1612424986000,
+                    "releaseTime": 1612424986000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "5bbb122d-aae0-4677-8fef-c5362ec1868f",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1612424986000,
+                    "releaseTime": 1612424986000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "4a032f97-d3af-4e69-b235-f78a098b1228",
+                    "subType": "kirakira"
+                },
+                {
+                    "lastModified": 1609832682000,
+                    "releaseTime": 1609832682000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "9ebaa476-699a-4dc4-848d-d1cb6163c19c",
+                    "subType": "kirakira"
+                },
+                {
+                    "lastModified": 1609832681000,
+                    "releaseTime": 1609832681000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "8fd18069-82ff-48ca-96e4-1a6e22ee5ef1",
+                    "subType": "kirakira"
+                },
+                {
+                    "lastModified": 1609832681000,
+                    "releaseTime": 1609832681000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "578cc9de-e481-438f-8584-f3f4a207e4dc",
+                    "subType": "kirakira"
+                },
+                {
+                    "lastModified": 1609832681000,
+                    "releaseTime": 1609832681000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "72469742-6b53-484e-a18c-c1df804a450b",
+                    "subType": "kirakira"
+                },
+                {
+                    "lastModified": 1609832681000,
+                    "releaseTime": 1609832681000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "06131b85-df5a-4e74-abef-e3f0143a5c15",
+                    "subType": "kirakira"
+                },
+                {
+                    "lastModified": 1609832681000,
+                    "releaseTime": 1609832681000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "94ef9488-1401-4b1b-a655-35ed3dddd1e3",
+                    "subType": "kirakira"
+                },
+                {
+                    "lastModified": 1609832680000,
+                    "releaseTime": 1609832680000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "7816ba19-063c-4e1d-87d0-ebe4f5fa7c21",
+                    "subType": "kirakira"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600447,
+            "items": [
+                {
+                    "lastModified": 1726732312000,
+                    "releaseTime": 1726732310000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "240819festival",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1678379404000,
+                    "releaseTime": 1678379404000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202302_Birthday_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "35e9af5f-6d88-4b20-b76b-b111f2a4612f",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "77b106b1-e304-4207-b126-25a60dbf28d3",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "35db2a60-d70d-4ab3-a422-0220811b384f",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "0f0157c3-7e35-4370-9816-e4e13542829d",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "purchase",
+                    "layout": "Sticker",
+                    "guid": "5bc29d5c-c22d-44c0-9ee9-51f69f095348",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "0eb2b14a-4712-4d48-9d49-abc948cea3d5",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "purchase",
+                    "layout": "Sticker",
+                    "guid": "4b820286-3a61-4bcd-aa0b-1fee1b6b0635",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "ef6767f1-5383-453e-9ce8-067c380c776e",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "ee4afc18-53ee-4ac8-a869-f6e7a92b7370",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "11c1ce46-512d-400d-a253-d4b3945e4cc6",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "8e4fea47-79c1-41df-857f-c635397f314e",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "purchase",
+                    "layout": "Sticker",
+                    "guid": "2c2569b0-f30c-4717-a3c7-073a0e1a57c9",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "4cca9c01-9307-409a-b0a3-859f31741c06",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497112000,
+                    "releaseTime": 1673497112000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2022_NewYear_03_star",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497112000,
+                    "releaseTime": 1673497112000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202210_newyear_effect_01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "dce80e4b-301a-41fe-bdba-0cf71870617e",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1673497112000,
+                    "releaseTime": 1673497112000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202211_holidays_effect-E02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1673497119000,
+                    "releaseTime": 1673497119000,
+                    "usageType": "free",
+                    "layout": "Sticker",
+                    "guid": "b960a5ca-10e7-4c14-8a5d-b9ab7f809120",
+                    "subType": ""
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600240,
+            "items": [
+                {
+                    "lastModified": 1715739244000,
+                    "releaseTime": 1714698023000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202404_Art_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1708050601000,
+                    "releaseTime": 1708050601000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202401_Anime_Effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1708050602000,
+                    "releaseTime": 1708050602000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202401_Sketch_Effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1692288004000,
+                    "releaseTime": 1692288004000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202307_effect_fairy_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1689562401000,
+                    "releaseTime": 1689562401000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "230616_Minimalist_effect_ka01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1689562401000,
+                    "releaseTime": 1689562401000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_230602_01_handwritten",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1689562401000,
+                    "releaseTime": 1689562401000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202306_Modern_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1682008203000,
+                    "releaseTime": 1682008203000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202303_effect_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1679589007000,
+                    "releaseTime": 1679589007000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202302_Comic_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1679589009000,
+                    "releaseTime": 1679589009000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202302_Dreamy_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1672019502000,
+                    "releaseTime": 1672019502000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "8157367c-d656-420f-a267-94c5eae89c7d",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1644543000000,
+                    "releaseTime": 1644543000000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "woman_who_rock_1",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1630548546000,
+                    "releaseTime": 1630548546000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Rainbow_B",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1630548546000,
+                    "releaseTime": 1630548546000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Rainbow_C",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1630548546000,
+                    "releaseTime": 1630548546000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "for_android_eef47ea5-f7fb-4b6f-b999-cb568c7766a8",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1630548546000,
+                    "releaseTime": 1630548546000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "54da3700-4946-4116-8236-2e7494b96979",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1630548545000,
+                    "releaseTime": 1630548545000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "4d01d5c4-34a7-40b2-95ad-2a9535155505",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1621641698000,
+                    "releaseTime": 1621641698000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Rainbow_A",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1620273119000,
+                    "releaseTime": 1620273119000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Angel_cloud_fly",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1620273119000,
+                    "releaseTime": 1620273119000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Angel_cloud_rise",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1620273119000,
+                    "releaseTime": 1620273119000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Angel_cloud_shine",
+                    "subType": ""
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600460,
+            "items": [
+                {
+                    "lastModified": 1685342721000,
+                    "releaseTime": 1685342721000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202305_Spiderman_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1675960201000,
+                    "releaseTime": 1675960201000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202301_Animals_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1675960201000,
+                    "releaseTime": 1675960201000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202301_Animals_effect_G02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1674113316000,
+                    "releaseTime": 1674113316000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "b6300e22-3a45-400a-81d7-fd5baa59d719",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1674113316000,
+                    "releaseTime": 1674113316000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "0173679c-6996-4d14-b0e2-20b684eb872a",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600236,
+            "items": [
+                {
+                    "lastModified": 1704384902000,
+                    "releaseTime": 1704384902000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202312_Quote_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1646737485000,
+                    "releaseTime": 1646737485000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "1billion_download",
+                    "subType": ""
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600461,
+            "items": [
+                {
+                    "lastModified": 1711933201000,
+                    "releaseTime": 1711933201000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202402_Retro_Effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1694135700000,
+                    "releaseTime": 1694135700000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202308_Vintage_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1694135700000,
+                    "releaseTime": 1694135700000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202308_Vintage_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1677169807000,
+                    "releaseTime": 1677169807000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202301_Retro_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1677169807000,
+                    "releaseTime": 1677169807000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "20230110_Retro_W01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600470,
+            "items": [
+                {
+                    "lastModified": 1703175302000,
+                    "releaseTime": 1703175302000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202311_Zodiac_Sagittarius",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1700150404000,
+                    "releaseTime": 1700150404000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202310_Zodiac_Scorpio",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1696521602000,
+                    "releaseTime": 1696521602000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202309_Zodiac_Libra",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1695345300000,
+                    "releaseTime": 1695345300000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202308_Zodiac_Virgo",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1691079300000,
+                    "releaseTime": 1691079300000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202307_Zodiac_Leo",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1688698073000,
+                    "releaseTime": 1688698073000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202306_Zodiac_Cancer",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1685637005000,
+                    "releaseTime": 1685637005000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202305_Zodiac_Gemini",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1683217800000,
+                    "releaseTime": 1683217800000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202304_Zodiac_Taurus",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1681471617000,
+                    "releaseTime": 1681471617000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202303_Zodiac_Aries3",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1679587205000,
+                    "releaseTime": 1679587205000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202302_Zodiac_Pisces",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1675960201000,
+                    "releaseTime": 1675960201000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202301_Zodiac_Capricorn",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1675960201000,
+                    "releaseTime": 1675960201000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202301_Zodiac_Aquarius",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600506,
+            "items": [
+                {
+                    "lastModified": 1681471617000,
+                    "releaseTime": 1681471617000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202303_Travel_effect_G02",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600239,
+            "items": [
+                {
+                    "lastModified": 1684427405000,
+                    "releaseTime": 1684427405000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202304_Weather_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1672019502000,
+                    "releaseTime": 1672019502000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "b273ee11-83cc-4989-b76e-db948c5f7adf",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1617160897000,
+                    "releaseTime": 1617160897000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "8110e288-3793-4481-b2fe-5fa53933c481",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1612424986000,
+                    "releaseTime": 1612424986000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "b56ed7f3-837f-4cfe-8855-cf3f9c301c20",
+                    "subType": "snowflake"
+                },
+                {
+                    "lastModified": 1610682201000,
+                    "releaseTime": 1610682201000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "52b339c9-4b1a-48aa-9535-175a2a436f58",
+                    "subType": "snowflake"
+                },
+                {
+                    "lastModified": 1589397866000,
+                    "releaseTime": 1589397866000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "440d5f10-321c-415f-bdd8-96074d9130f6"
+                },
+                {
+                    "lastModified": 1589397866000,
+                    "releaseTime": 1589397866000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "f9e9efb8-32c7-40c0-916a-66d30fcacf24"
+                },
+                {
+                    "lastModified": 1586392391000,
+                    "releaseTime": 1586392391000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "8a68b0af-72af-45a3-9d52-72e906da137b"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600241,
+            "items": [
+                {
+                    "lastModified": 1710465300000,
+                    "releaseTime": 1710465300000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202402_Light_effect_G03",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1692288902000,
+                    "releaseTime": 1692288902000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202307_Tech_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1647341511000,
+                    "releaseTime": 1647341511000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_220221_metaverse_light_beam",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1648553320000,
+                    "releaseTime": 1648553320000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_220221_metaverse_number",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1628156173000,
+                    "releaseTime": 1628156173000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Star_Moon_lake",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1628156173000,
+                    "releaseTime": 1628156173000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Star_Moon_shape",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1628156173000,
+                    "releaseTime": 1628156173000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Star_Moon_space",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1628156173000,
+                    "releaseTime": 1628156173000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Star_Moon_Meteor_shower",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1597887026000,
+                    "releaseTime": 1597887026000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "f82e7d3a-fd0b-472d-a6fb-a651e134f59a"
+                },
+                {
+                    "lastModified": 1617160897000,
+                    "releaseTime": 1617160897000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "50fd1d96-5b87-491e-826e-02cbff4709db",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1597887026000,
+                    "releaseTime": 1597887026000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "d15bf869-0b1f-4da1-9ec8-600f55c87d55"
+                },
+                {
+                    "lastModified": 1589397866000,
+                    "releaseTime": 1589397866000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "de46bc87-3709-4711-a9b5-ff1bb46cdfd6"
+                },
+                {
+                    "lastModified": 1589397866000,
+                    "releaseTime": 1589397866000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "5d7661cc-720f-4f05-bc1e-bca5e72baf54"
+                },
+                {
+                    "lastModified": 1589397866000,
+                    "releaseTime": 1589397866000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "072ecdbe-8ad5-4efc-bd56-08d7494f063c"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600242,
+            "items": [
+                {
+                    "lastModified": 1612424986000,
+                    "releaseTime": 1612424986000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "801d42ff-e28f-46de-8184-d4cf1729f56d",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1612424986000,
+                    "releaseTime": 1612424986000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "f414f422-77fb-466d-b542-3bf59f01745b",
+                    "subType": ""
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600243,
+            "items": [
+                {
+                    "lastModified": 1726416011000,
+                    "releaseTime": 1726416011000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202408_effect_Palette_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1688698073000,
+                    "releaseTime": 1688698073000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202306_Beauty_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1677169807000,
+                    "releaseTime": 1677169807000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "20230110_Fashion_E01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600235,
+            "items": [
+                {
+                    "lastModified": 1614231001000,
+                    "releaseTime": 1614231001000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "8ca24026-079a-4f7d-a773-52a2bf0917a5",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1614231001000,
+                    "releaseTime": 1614231001000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "43591d84-7fca-4232-adbe-f8c47f881cc1",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1614231001000,
+                    "releaseTime": 1614231001000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "636b7097-0f41-44fe-843e-486472a8b600",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1614231001000,
+                    "releaseTime": 1614231001000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "53ea2b8c-a1db-4ab5-bc90-fc49f0f162c1",
+                    "subType": ""
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600417,
+            "items": [
+                {
+                    "lastModified": 1715907615000,
+                    "releaseTime": 1715907615000,
+                    "usageType": "Paid",
+                    "layout": "Overlay",
+                    "guid": "202404_Trendy_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1705594500000,
+                    "releaseTime": 1705594500000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202401_effect_rock_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1662948579000,
+                    "releaseTime": 1662948579000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "StrangerThings_Effect_02",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1657619260000,
+                    "releaseTime": 1657619260000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "StrangerThings_Effect_01",
+                    "subType": ""
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600479,
+            "items": [
+                {
+                    "lastModified": 1710465301000,
+                    "releaseTime": 1710465301000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202402_effect_superstar_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1695345301000,
+                    "releaseTime": 1695345301000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202308_Music_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1676392200000,
+                    "releaseTime": 1676392200000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202301_Cochella_effect_W01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600513,
+            "items": [
+                {
+                    "lastModified": 1722584576000,
+                    "releaseTime": 1722584575000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202407_School_Effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1722584576000,
+                    "releaseTime": 1722584575000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "20240718_school_effect_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1706803201000,
+                    "releaseTime": 1706803201000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202401_yearbook_effect_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1685637006000,
+                    "releaseTime": 1685637006000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202305_School_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1683217801000,
+                    "releaseTime": 1683217801000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202304_graduation_w01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600504,
+            "items": [
+                {
+                    "lastModified": 1744180375000,
+                    "releaseTime": 1744356375000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202504_JPN_goldfish",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1716963861000,
+                    "releaseTime": 1716963860000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "240517worldoceaneffect",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1708659710000,
+                    "releaseTime": 1708659708000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202402_panda_effect_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1678379404000,
+                    "releaseTime": 1678379404000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202302_Nature_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1678379404000,
+                    "releaseTime": 1678379404000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202302_Nature_J01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600510,
+            "items": [
+                {
+                    "lastModified": 1721005201000,
+                    "releaseTime": 1721005201000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202406_Cheerleading_Effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1718586001000,
+                    "releaseTime": 1718586001000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202405PromDanceW01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1713142801000,
+                    "releaseTime": 1713142801000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202403_Effect_Festival_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1708659710000,
+                    "releaseTime": 1708659707000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202402_Graduation_Effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1686846603000,
+                    "releaseTime": 1686846603000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202305_Wedding_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1681471617000,
+                    "releaseTime": 1681471617000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202303_Party_effect_E01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600237,
+            "items": [
+                {
+                    "lastModified": 1747306753000,
+                    "releaseTime": 1747970159000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202505_Prdie_Effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1735290468000,
+                    "releaseTime": 1736306072000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202412_valentinesday_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1735290468000,
+                    "releaseTime": 1736306072000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202412_valentinesday_W02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1705658787000,
+                    "releaseTime": 1705658786000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "2024_effect_Vday_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1705658787000,
+                    "releaseTime": 1705658786000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202401_Vday_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1705658786000,
+                    "releaseTime": 1705658786000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202401_Vday_effect_G02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1691078401000,
+                    "releaseTime": 1691078401000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202307_fingerheart",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1675331272000,
+                    "releaseTime": 1675331272000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202301_Vday_effect_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1675331272000,
+                    "releaseTime": 1675331272000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202301_Vday_effect_J01_nocolor",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1675321923000,
+                    "releaseTime": 1675321923000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202301_Vday_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1675321923000,
+                    "releaseTime": 1675321923000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202301_Vday_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1672019502000,
+                    "releaseTime": 1672019502000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "d28c2ec4-fb15-4cc7-9c3a-2a8f7b83d10d",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1646106924000,
+                    "releaseTime": 1646106924000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "womens_day",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1641284683000,
+                    "releaseTime": 1641284683000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_211228_vday_02",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1641284683000,
+                    "releaseTime": 1641284683000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_211228_vday_01",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1611546338000,
+                    "releaseTime": 1611546338000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "42aed8db-ef7a-4db2-95ed-d021b65dfd62",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1611546338000,
+                    "releaseTime": 1611546338000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "4beb2644-7950-42eb-a898-ef1c69ce8ba4",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1611546338000,
+                    "releaseTime": 1611546338000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "772b5b39-0141-4619-ad5b-ef6f1528f3ef",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1609832681000,
+                    "releaseTime": 1609832681000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "14c707b2-15e9-423a-9371-75aba4f2eff3",
+                    "subType": "kirakira"
+                },
+                {
+                    "lastModified": 1610682201000,
+                    "releaseTime": 1610682201000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "ff088b43-728b-47fe-9e27-9a7d3e196b33",
+                    "subType": "snowflake"
+                },
+                {
+                    "lastModified": 1597090039000,
+                    "releaseTime": 1597090039000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "e4d49b66-4401-4be0-aab6-1c1147258c3f"
+                },
+                {
+                    "lastModified": 1587007989000,
+                    "releaseTime": 1587007989000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "b6d18483-030d-4e34-98e7-6edeefbc0947"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600511,
+            "items": [
+                {
+                    "lastModified": 1717376401000,
+                    "releaseTime": 1717376401000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202405PicnicW01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1705593606000,
+                    "releaseTime": 1705593606000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202312_Coffee_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1697732101000,
+                    "releaseTime": 1697732101000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202309_cooking_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1697731202000,
+                    "releaseTime": 1697731202000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202309_fruit_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1686846602000,
+                    "releaseTime": 1686846602000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202305_FrenchDesserts_effect_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1684427406000,
+                    "releaseTime": 1684427406000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202304_Drink_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1684427405000,
+                    "releaseTime": 1684427405000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202304_BBQ_effect_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1683217801000,
+                    "releaseTime": 1683217801000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202304_food_w01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600514,
+            "items": [
+                {
+                    "lastModified": 1686846602000,
+                    "releaseTime": 1686846602000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202305_health_w01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600737,
+            "items": [
+                {
+                    "lastModified": 1723737616000,
+                    "releaseTime": 1723737616000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202407_effect_digi_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1722597810000,
+                    "releaseTime": 1722597808000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "240718universe",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1703175301000,
+                    "releaseTime": 1703175301000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202311_Rocket_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1702002604000,
+                    "releaseTime": 1702002604000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202311_Outerspace_effect_G01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600517,
+            "items": [
+                {
+                    "lastModified": 1700151303000,
+                    "releaseTime": 1700151303000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202310_circus_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1699003804000,
+                    "releaseTime": 1699003804000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202310_Ninja_effect_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1699003804000,
+                    "releaseTime": 1699003804000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202310_cute_effect_G01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600562,
+            "items": [
+                {
+                    "lastModified": 1720754862000,
+                    "releaseTime": 1720754862000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202406_effect_olympic_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1688698073000,
+                    "releaseTime": 1688698073000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202306_Sport_E01",
+                    "subType": "apng"
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249550000
+        },
+        {
+            "categoryId": 13600630,
+            "items": [
+                {
+                    "lastModified": 1757043317000,
+                    "releaseTime": 1757504241000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202408_effect_halloween_D01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1757043317000,
+                    "releaseTime": 1757504241000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202408_effect_halloween_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1757043317000,
+                    "releaseTime": 1757504241000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202508_Halloween_effect_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1725954418000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202409_Halloween_D01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1725954418000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202409_Halloween_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1725954418000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202409_Halloween_W01_new",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202309_Horror_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202309_Halloween_effect_J01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202309_halloween_effect_G01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202309_Halloween_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "2023_09_halloween_W01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202208_halloween_E01",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202208_halloween_E02",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202208_halloween_effect_E03",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202208_halloween_effect_E04",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202208_halloween_Effect_05",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202208_halloween_effect_07",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "202208_halloween_effect_06",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "202303_halloween_effect_08",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757848000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Halloween_Moon_bats",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757847000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Halloween_Skull_fog",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757847000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Halloween_pumbkin_light",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757847000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "Effect_2021_Halloween_candy_bucket",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757847000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "55f9d1da-2306-4c85-82df-342eb0c1ffd8",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757847000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "2b2883a6-5b28-42c5-ad1e-f6a19f4a4768",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757847000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "d848364e-97d0-4b90-9a33-ed1c62b5e2b3",
+                    "subType": ""
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757847000,
+                    "usageType": "free",
+                    "layout": "Overlay",
+                    "guid": "2ac0c094-fdc3-4e83-8f5c-b9c63c854d38",
+                    "subType": "apng"
+                },
+                {
+                    "lastModified": 1729506409000,
+                    "releaseTime": 1729757847000,
+                    "usageType": "purchase",
+                    "layout": "Overlay",
+                    "guid": "3ba7aba0-e7a0-494b-8ab2-9f91ca8aa5d8",
+                    "subType": ""
+                }
+            ],
+            "subCategoryList": [],
+            "lastModified": 1762249563000
+        }
+    ],
+    "messagedigest": "96ebe595c3c2c06653aeb1059b989bfe"
+}

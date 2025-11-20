@@ -1,0 +1,239 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "e5acfe53-1f69-488f-8cce-4163c3777544",
+            "name": "Get_Item_List",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "updatedAt": "2025-11-17T11:25:59.000Z",
+            "createdAt": "2025-11-12T07:23:29.000Z",
+            "lastUpdatedBy": "17823793",
+            "uid": "17823793-e5acfe53-1f69-488f-8cce-4163c3777544"
+        },
+        "item": [
+            {
+                "name": "get-tree-YMK_AnimatedContent",
+                "event": [
+                    {
+                        "listen": "test",
+                        "script": {
+                            "id": "963f30dc-604a-48d7-b47a-d7dda718dbe6",
+                            "exec": [
+                                "pm.test(\"Status code is 200\", function () {\r",
+                                "    pm.response.to.have.status(200);\r",
+                                "});\r",
+                                "var jsonBody = String(responseBody);\r",
+                                "var re = /\"guid\":\"[^\"]*\"/gi;\r",
+                                "var match_array = jsonBody.match(re);\r",
+                                "var guid_list = [];\r",
+                                "var collection_guid_list = pm.collectionVariables.get(\"collection_guid_list\");\r",
+                                "if(collection_guid_list && collection_guid_list.length > 0)\r",
+                                "    guid_list = guid_list.concat(collection_guid_list);\r",
+                                "// console.log(match_array)\r",
+                                "// console.log(guid_list)\r",
+                                "match_array.forEach(element =>{\r",
+                                "    element = element.split(':')[1];\r",
+                                "    element = element.substring(1, element.length - 1);\r",
+                                "    guid_list.push(element);\r",
+                                "    // console.log(element);\r",
+                                "});\r",
+                                "pm.collectionVariables.set(\"collection_guid_list\", guid_list);\r",
+                                ""
+                            ],
+                            "type": "text/javascript"
+                        }
+                    }
+                ],
+                "id": "c0f72537-4280-4d8e-ac17-dcea3ac86b2a",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "urlencoded",
+                        "urlencoded": [
+                            {
+                                "key": "product",
+                                "value": "YouCam Makeup",
+                                "type": "text"
+                            },
+                            {
+                                "key": "version",
+                                "value": "1.0",
+                                "type": "text"
+                            },
+                            {
+                                "key": "versiontype",
+                                "value": "{{versiontype}}",
+                                "type": "text"
+                            },
+                            {
+                                "key": "platform",
+                                "value": "{{platform}}",
+                                "type": "text"
+                            },
+                            {
+                                "key": "lang",
+                                "value": "{{lang}}",
+                                "type": "text"
+                            },
+                            {
+                                "key": "country",
+                                "value": "{{country}}",
+                                "type": "text"
+                            },
+                            {
+                                "key": "contentver",
+                                "value": "{{contentVer}}",
+                                "type": "text"
+                            },
+                            {
+                                "key": "lang",
+                                "value": "{{lang}}",
+                                "type": "text"
+                            },
+                            {
+                                "key": "templatetype",
+                                "value": "AnimatedContent",
+                                "type": "text"
+                            },
+                            {
+                                "key": "categorytype",
+                                "value": "YMK_AnimatedContent",
+                                "type": "text"
+                            }
+                        ]
+                    },
+                    "url": {
+                        "raw": "{{URL}}{{service_v2}}/template/get-tree",
+                        "host": [
+                            "{{URL}}{{service_v2}}"
+                        ],
+                        "path": [
+                            "template",
+                            "get-tree"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "17823793-c0f72537-4280-4d8e-ac17-dcea3ac86b2a"
+            },
+            {
+                "name": "getMakeupItemTree",
+                "event": [
+                    {
+                        "listen": "test",
+                        "script": {
+                            "id": "214149a9-fc22-463c-8af6-4c0d45783f50",
+                            "exec": [
+                                "pm.test(\"Status code is 200\", function () {\r",
+                                "    pm.response.to.have.status(200);\r",
+                                "});\r",
+                                "var jsonBody = String(responseBody);\r",
+                                "var re = /\"guid\":\"[^\"]*\"/gi;\r",
+                                "var match_array = jsonBody.match(re);\r",
+                                "var guid_list = [];\r",
+                                "var collection_guid_list = pm.collectionVariables.get(\"collection_guid_list\");\r",
+                                "if(collection_guid_list && collection_guid_list.length > 0)\r",
+                                "    guid_list = guid_list.concat(collection_guid_list);\r",
+                                "// console.log(match_array)\r",
+                                "// console.log(guid_list)\r",
+                                "match_array.forEach(element =>{\r",
+                                "    element = element.split(':')[1];\r",
+                                "    element = element.substring(1, element.length - 1);\r",
+                                "    guid_list.push(element);\r",
+                                "    // console.log(element);\r",
+                                "});\r",
+                                "pm.collectionVariables.set(\"collection_guid_list\", guid_list);\r",
+                                ""
+                            ],
+                            "type": "text/javascript"
+                        }
+                    }
+                ],
+                "id": "0fabed90-1228-4876-92e9-4dc19f1eb477",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "urlencoded",
+                        "urlencoded": [
+                            {
+                                "key": "categoryId",
+                                "value": "-1",
+                                "type": "text"
+                            },
+                            {
+                                "key": "contentVer",
+                                "value": "{{contentVer}}",
+                                "type": "text"
+                            },
+                            {
+                                "key": "lang",
+                                "value": "{{lang}}",
+                                "type": "text"
+                            },
+                            {
+                                "key": "platform",
+                                "value": "{{platform}}",
+                                "type": "text"
+                            },
+                            {
+                                "key": "product",
+                                "value": "YouCam MakeUp",
+                                "type": "text"
+                            },
+                            {
+                                "key": "version",
+                                "value": "1.0",
+                                "type": "text"
+                            },
+                            {
+                                "key": "versiontype",
+                                "value": "for ios",
+                                "type": "text"
+                            },
+                            {
+                                "key": "categoryContentVer",
+                                "value": "6",
+                                "type": "text"
+                            },
+                            {
+                                "key": "appVersion",
+                                "value": "{{appVersion}}",
+                                "type": "text"
+                            },
+                            {
+                                "key": "country",
+                                "value": "{{country}}",
+                                "type": "text"
+                            }
+                        ]
+                    },
+                    "url": {
+                        "raw": "{{URL}}{{service_v2}}/makeupItem/getTree",
+                        "host": [
+                            "{{URL}}{{service_v2}}"
+                        ],
+                        "path": [
+                            "makeupItem",
+                            "getTree"
+                        ]
+                    }
+                },
+                "response": [],
+                "uid": "17823793-0fabed90-1228-4876-92e9-4dc19f1eb477"
+            }
+        ],
+        "variable": [
+            {
+                "key": "collection_guid_list",
+                "value": ""
+            }
+        ]
+    }
+}
