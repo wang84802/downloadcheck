@@ -37,8 +37,8 @@ def get_postman_collection_by_name(collection_name):
                 return return_data
         assert False, f"Collection '{collection_name}' not found"  # ✅ 沒找到也fail
 
-    except requests.exceptions.HTTPError as e:
-        logging.error(f"❌ API 呼叫失敗，狀態碼: {response.status_code}, 錯誤內容: {e}")
+    except Exception as e:
+        logging.error(f"❌ API 呼叫失敗, 錯誤內容: {e}")
         raise  # 保持原本例外，讓 pytest 判定 FAIL
 
 def get_postman_environment_by_name(environment_name):
@@ -60,8 +60,8 @@ def get_postman_environment_by_name(environment_name):
                 return response.json()
         assert False, f"Environment '{environment_name}' not found"  # ✅ 沒找到也fail
 
-    except requests.exceptions.HTTPError as e:
-        logging.error(f"❌ API 呼叫失敗，狀態碼: {response.status_code}, 錯誤內容: {e}")
+    except Exception as e:
+        logging.error(f"❌ API 呼叫失敗, 錯誤內容: {e}")
         raise  # 保持原本例外，讓 pytest 判定 FAIL
 
 def get_guid_list(api_data):
@@ -70,16 +70,18 @@ def get_guid_list(api_data):
     return guids
 
 def check_guid_loop(guid_list, raw_url, headers_dict, body_dict, method):
-    logging.info("開始進行 GUID 迴圈檢查...")
+    domain = re.findall(r'^https://[^/]+', raw_url)
+    logging.info(f"開始進行 domain 迴圈檢查 : {domain[0]}")
+
     assert guid_list, "api_data is empty or does not exist"
 
     arr_check_size_item_list = []
     arr_check_md5_item_list = []
+    arr_missing_field_list = []
     arr_other_error_list = []
+    arr_success_list = []
 
     for guid in guid_list:
-        logging.info("\n============ 開始檢查 ============\n")
-        logging.info(f"GUID: {guid}")
 
         parsed_url = urlparse(raw_url)
         query_params = parse_qs(parsed_url.query)
@@ -88,111 +90,142 @@ def check_guid_loop(guid_list, raw_url, headers_dict, body_dict, method):
         new_url = urlunparse(parsed_url._replace(query=new_query))
 
         # call detail API
+        if guid == "161101_modeliste":
+            arr_other_error_list.append(f"測試❌ 不支援的 HTTP 方法: {method}，GUID: {guid}")
+            continue
         if method.upper() == "GET":
             response = requests.get(new_url, headers=headers_dict, params=body_dict)
         elif method.upper() == "POST":
             response = requests.post(new_url, headers=headers_dict, data=body_dict)
         else:
-            arr_other_error_list.append(f"❌ 不支援的 HTTP 方法: {method}，GUID: {guid}") # 無法檢查大小
-            logging.error(f"❌ 不支援的 HTTP 方法: {method}，GUID: {guid}")
+            arr_other_error_list.append(f"❌ 不支援的 HTTP 方法: {method}，GUID: {guid}")
             continue
-
-        if response.status_code != 200:
-            arr_other_error_list.append(f"❌ API 回傳非 200 狀態碼: {response.status_code}，GUID: {guid}") # 無法檢查大小
-            logging.error(f"❌ API 回傳非 200 狀態碼: {response.status_code}，GUID: {guid}")
+        
+        if guid == "store_necklace_20150522_03":
+            arr_other_error_list.append(f"測試❌ API 回傳非 200 狀態碼: {response.status_code}，GUID: {guid}")
             continue
+        else:
+            if response.status_code != 200:
+                arr_other_error_list.append(f"❌ API 回傳非 200 狀態碼: {response.status_code}，GUID: {guid}")
+                continue
 
         item_api_data = response.json()
         keys = list(item_api_data.keys())
         item = item_api_data[keys[1]][0]
 
-        # 將欄位名稱轉為小寫以便後續檢查
         item_lower = {k.lower(): v for k, v in item.items()}
 
         required_fields = ['downloadurl', 'downloadchecksum', 'downloadfilesize']
-
-        # 檢查是否缺任何必要欄位
         missing = [f for f in required_fields if f not in item_lower]
+
         if missing:
-            arr_other_error_list.append(f"❌ API 回傳資料缺少必要欄位: {missing}, {guid}") # 無法檢查大小
-            logging.error(f"❌ API 回傳資料缺少必要欄位: {missing}, {guid}")
-            # 跳過後面檢查，直接進入下一個 GUID
+            arr_missing_field_list.append(
+                f"- {guid} (缺少欄位: {', '.join(missing)})"
+            )
             continue
 
         zip_url = item_lower['downloadurl']
         expected_checksum = item_lower['downloadchecksum']
         expected_size_bytes = item_lower['downloadfilesize']
 
-        logging.info(f"ZIP 檔案 URL: {zip_url}")
-        logging.info(f"預期檔案大小：{expected_size_bytes} Bytes")
-        logging.info(f"預期 MD5 簡碼：{expected_checksum}")
-
         # ===== 檢查檔案大小 =====
         metadata_response = requests.head(zip_url)
         remote_size_bytes = metadata_response.headers.get('Content-Length')
 
-        if remote_size_bytes:
-            remote_size_mb = int(remote_size_bytes) / (1024 * 1024)
-            logging.info(f"實際檔案大小：{remote_size_bytes} Bytes ({remote_size_mb:.2f} MB)")
-        else:
-            arr_other_error_list.append(f"⚠️ 伺服器無 Content-Length : {guid}\nzip_url : {zip_url}") # 無法檢查大小
+        if not remote_size_bytes:
+            arr_other_error_list.append(f"⚠️ 伺服器無 Content-Length : {guid}\nURL : {zip_url}")
 
+        # 檔案大小錯誤
         if guid == 'thumb_hairband_190104_CNY_look_HD':
-            arr_check_size_item_list.append(f"測試: ❌ 檔案大小不符合 : {guid}\nzip_url : {zip_url}")  # 大小不符合
-            logging.error(f"測試: ❌ 檔案大小不符合 : {guid} + \n + zip_url : {zip_url}")
+            arr_check_size_item_list.append(
+                f"測試- {guid}\n  URL: {zip_url}\n  Expected: {expected_size_bytes}\n  Actual: {remote_size_bytes}"
+            )  # 大小不符合
         else:
-            if remote_size_bytes and int(remote_size_bytes) == expected_size_bytes:
-                logging.info('pass check size')
-            else:
-                arr_check_size_item_list.append(f"測試: ❌ 檔案大小不符合 : {guid}\nzip_url : {zip_url}")  # 大小不符合
-                logging.error(f"測試: ❌ 檔案大小不符合 : {guid}\nzip_url : {zip_url}")
+            if not remote_size_bytes or int(remote_size_bytes) != expected_size_bytes:
+                arr_check_size_item_list.append(
+                    f"- {guid}\n  URL: {zip_url}\n  Expected: {expected_size_bytes}\n  Actual: {remote_size_bytes}"
+                )
 
-        # ===== 驗證檔案完整性 (MD5) ======
+        # ===== MD5 驗證 =====
         calculated_md5 = calculate_md5_from_url(zip_url)
 
         if guid == 'pattern_Pignose_190103_3D_ChineseNewYear':
-            arr_check_md5_item_list.append(f"測試: ❌ 檔案完整性驗證失敗，MD5 不符合 : {guid}\nzip_url : {zip_url}")  # MD5 不符合
-            logging.error(f"測試: ❌ 檔案完整性驗證失敗，MD5 不符合 : {guid}\nzip_url : {zip_url}")
+            arr_check_md5_item_list.append(
+                f"測試- {guid}\n  URL: {zip_url}\n  Expected: {expected_checksum}\n  Actual: {calculated_md5}"
+            )
         else:
-            logging.info(f"calculated_md5: {calculated_md5}, expected_checksum: {expected_checksum}")
-            if calculated_md5 == expected_checksum:
-                logging.info('pass check md5')
-            else:
-                arr_check_md5_item_list.append(f"❌ 檔案完整性驗證失敗，MD5 不符合 : {guid}\nzip_url : {zip_url} \
-                                                calculated_md5: {calculated_md5}, expected_checksum: {expected_checksum}")  # MD5 不符合
-                logging.error(f"❌ 檔案完整性驗證失敗，MD5 不符合 : {guid}\nzip_url : {zip_url} \
-                                                calculated_md5: {calculated_md5}, expected_checksum: {expected_checksum}")
+            if calculated_md5 != expected_checksum:
+                arr_check_md5_item_list.append(
+                    f"- {guid}\n  URL: {zip_url}\n  Expected: {expected_checksum}\n  Actual: {calculated_md5}"
+                )
 
+        # 全部成功才加入成功清單
+        if (remote_size_bytes and int(remote_size_bytes) == expected_size_bytes and
+                calculated_md5 == expected_checksum):
+            arr_success_list.append(guid)
 
-    if arr_check_size_item_list == [] and arr_check_md5_item_list == [] and arr_other_error_list == []:
-        logging.info('all correct')
-    else:
-        logging.error('something error')
-        if arr_other_error_list:
-            logging.error("有其他錯誤發生:\n" + "\n".join(arr_other_error_list))
-        if arr_check_size_item_list:
-            logging.error("有項目檔案大小不符合預期:\n" + "\n".join(arr_check_size_item_list))
-        if arr_check_md5_item_list:
-            logging.error("有項目MD5不符合預期:\n" + "\n".join(arr_check_md5_item_list))
+    # ============================================================
+    #                ★★★★★ Final Report ★★★★★
+    # ============================================================
+
+    logging.info("\n\n============ 最終測試報告 ============\n")
+
+    # ⚠ 缺少欄位
+    logging.info("\n## ⚠ 缺少必要欄位\n" +
+                 ("\n".join(arr_missing_field_list) if arr_missing_field_list else "（無）"))
+
+    # ❌ Size mismatch
+    logging.info("\n## ❌ 檔案大小不符\n" +
+                 ("\n".join(arr_check_size_item_list) if arr_check_size_item_list else "（無）"))
+
+    # ❌ MD5 mismatch
+    logging.info("\n## ❌ MD5 不符合\n" +
+                 ("\n".join(arr_check_md5_item_list) if arr_check_md5_item_list else "（無）"))
+
+    # 其他錯誤
+    logging.info("\n## ⚠ 其他錯誤\n" +
+                 ("\n".join(arr_other_error_list) if arr_other_error_list else "（無）"))
+
+    # Summary
+    total = len(guid_list)
+    success = len(arr_success_list)
+    missing = len(arr_missing_field_list)
+    size_err = len(arr_check_size_item_list)
+    md5_err = len(arr_check_md5_item_list)
+    other_err = len(arr_other_error_list)
+
+    logging.info("\n============ Summary ============\n"
+                 f"✔ 成功: {success}\n"
+                 f"⚠ 缺少欄位: {missing}\n"
+                 f"❌ Size mismatch: {size_err}\n"
+                 f"❌ MD5 mismatch: {md5_err}\n"
+                 f"⚠ 其他錯誤: {other_err}\n"
+                 f"總測試項目數: {total}\n"
+                 "=================================\n")
 
 def build_api_url(raw_url, base_url, service_path, domain):
     raw_url = raw_url.replace("{{URL}}", base_url).replace("{{service_v2}}", service_path)
     if domain:
-        pattern = r'^(https?://)([^/]+)'
-        raw_url = re.sub(pattern, r'\1' + domain, raw_url)
+        pattern = r'^(https://)([^/]+)'
+        raw_url = re.sub(pattern, domain, raw_url)
     return raw_url
 
 def fetch_item_list(api_url, headers_dict, body_dict, method):
-    if method.upper() == "GET":
-        response = requests.get(api_url, headers=headers_dict, params=body_dict)
-        response.raise_for_status()
-        return response.json()
-    elif method.upper() == "POST":
-        response = requests.post(api_url, headers=headers_dict, data=body_dict)
-        response.raise_for_status()
-        return response.json()
-    else:
-        raise ValueError(f"Unsupported HTTP method: {method}")
+    try:
+        logging.info(f"fetch 呼叫 API: {api_url} with method: {method}")
+        if method.upper() == "GET":
+            response = requests.get(api_url, headers=headers_dict, params=body_dict)
+            response.raise_for_status()
+            return response.json()
+        elif method.upper() == "POST":
+            response = requests.post(api_url, headers=headers_dict, data=body_dict)
+            response.raise_for_status()
+            return response.json()
+        else:
+            raise ValueError(f"Unsupported HTTP method: {method}")
+    except Exception as e:
+        logging.error(f"❌ API 呼叫失敗, 錯誤內容: {e}")
+        raise  # 保持原本例外，讓 pytest 判定 FAIL
 
 def calculate_md5_from_url(url):
     hash_md5 = hashlib.md5()

@@ -18,10 +18,6 @@ json_text = [
 # 1. 找出所有 guid
 guids = re.findall(r"'guid'\s*:\s*'([^']+)'", json_text.__str__())
 
-# guids = re.findall(r'"guid"\s*:\s*"([^"]+)"', str(json_text))
-print(json_text.__str__())
-print(guids)
-
 
 # 2. 移除包含 guid 的整行
 # cleaned_json = re.sub(r'.*"guid"\s*:\s*"[^"]+".*\n?', '', json_text, flags=re.MULTILINE)

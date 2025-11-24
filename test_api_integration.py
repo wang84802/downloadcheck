@@ -86,8 +86,9 @@ class TestPostmanAPI:
             # detail API
             raw_url_item_detail, headers_item_detail, body_item_detail, method_item_detail = \
                 self.build_request_from_postman(self.collection2['collection']['item'][0])
-            api_url_item_detail = build_api_url(raw_url_item_detail, self.env_val['URL'], self.env_val['service_v2'], domain)
             
+            api_url_item_detail = build_api_url(raw_url_item_detail, self.env_val['URL'], self.env_val['service_v2'], domain)
+
             guid_list = []
 
             # 每個 collection item 代表一個 list API
